@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: 'hotpizza';
+    src: url(/Font/hotpizza.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+main{
+    width: 45%;
+    margin: auto;
+    height: 1200px;
+    padding: 0 18px;
+    height: 2500px;
+}
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding-bottom: 10px;
+}
+li:hover{
+    opacity: 0.5;
+    opacity: 50%;
+}
+#vi{
+    border-bottom: 1px solid red;
+}
+h1:hover{
+    opacity: 0.5;
+    opacity: 50%;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+header>h1{
+    font-family:'hotpizza';
+    font-size: bold;
+    font-size: 90px;
+    text-align: center;
+}
+#menu li{
+    list-style-type: none;
+}
+#menu li a{
+    text-decoration: none;
+    padding: 5px;
+    color: blue;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+a:hover{
+    opacity: 0.5;
+    opacity: 50%;
+}
+#contenedor{
+    display: grid;
+    grid-template-areas: "tabla comentarios"
+     "mapa mapa";
+    grid-template-columns: 2fr 1fr ;
+    margin: auto;
+    background-image: linear-gradient(to top left, white, #e0bc9c);
+    grid-template-columns: 500px;
+}
+.tabla{
+    grid-area: tabla;
+    
+}
+#tabla{
+    margin: auto;
+    width: 80%;
+}
+td,tr,th{
+    border: 2px solid 
+    white;
+}
+h3{
+    color: red;
+    text-align: center;
+}
+.comentarios{
+    grid-area: comentarios;
+    margin: auto;
+}
+figure{
+    margin-left: 170px;
+}
+.mapa{
+    grid-area: mapa;
+    margin: auto;
+}
+#redes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.redes{
+    border-radius: 100%;
+    background-color: black;
+    border: 10px solid black;
+    margin: 10px; 
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}

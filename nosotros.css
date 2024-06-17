@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: 'hotpizza';
+    src: url(/Font/hotpizza.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+main{
+    width: 65%;
+    margin: auto;
+    height: 1200px;
+    padding: 0 18px;
+    height: 2500px;
+}
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding-bottom: 10px;
+}
+li:hover{
+    opacity: 0.5;
+    opacity: 50%;
+}
+#vi{
+    border-bottom: 1px solid red;
+}
+h1:hover{
+    opacity: 0.5;
+    opacity: 50%;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+header>h1{
+    font-family:'hotpizza';
+    font-size: bold;
+    font-size: 90px;
+    text-align: center;
+}
+#menu li{
+    list-style-type: none;
+}
+#menu li a{
+    text-decoration: none;
+    padding: 5px;
+    color: blue;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.cuadrado{
+    display: grid;
+    grid-template-areas:" titulo  titulo " "texto imagenes" "pie pie" ;
+    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-columns: 75% 25%;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid;
+
+}
+.titulo{
+    grid-area: titulo ;
+    background-color: #18243c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+hr{
+    border-top: 2px dashed yellow;
+}
+#pizzas2{
+    box-shadow: 0 10px 10px orange;
+}
+a:hover{
+    opacity: 0.5;
+    opacity: 50%;
+}
+
+.contexto{
+    grid-area: texto;
+}
+.imagen{
+    grid-area: imagenes;
+    background-image: url(img/pizza\ 5.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.salida{
+    grid-area: pie;
+    background-color: #18243c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+#redes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.redes{
+    border-radius: 100%;
+    background-color: black;
+    border: 10px solid black;
+    margin: 10px; 
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
